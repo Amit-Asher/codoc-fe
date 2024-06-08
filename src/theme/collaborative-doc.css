@@ -1,0 +1,18 @@
+.custom-marker {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.collab-doc-container {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    padding: 10px;
+}
+
+#elements-container {
+    position: relative;
+}
